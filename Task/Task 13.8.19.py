@@ -35,4 +35,4 @@ if tickets > 3:
     sale = cash - ((cash / 100) * 10)
     print(f"Сумма к оплате {sale} руб., с учётом скидки 10%")
 else:
-    print(f"Сумма к оплате {cash} руб.")
+    print(f"Сумма к оплате {cash} руб. ")
