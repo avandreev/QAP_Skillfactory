@@ -1,4 +1,4 @@
-#ExchangeRates bot
+### ExchangeRates bot 
 Телеграм-бот для конвертации валют. Имя бота - [@ExchangeRates2022_bot](https://t.me/ExchangeRates2022_bot).
 
 Доступные команды:
