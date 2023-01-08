@@ -1,3 +1,6 @@
+# для pytest-selenium версии 3.0.0 и ниже
+
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
