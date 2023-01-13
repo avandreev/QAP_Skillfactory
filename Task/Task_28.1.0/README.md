@@ -1,4 +1,4 @@
-### Задание 28.1 Итоговый проект по автоматизации тестирования
+### Задание 28.1.0 Итоговый проект по автоматизации тестирования
 Проект содержит файлы необходимые для проведения тестирования интерфейса авторизации в личном кабинете от заказчика Ростелеком Информационные Технологии:
 1. [требования_SSO_для_тестирования_last_2_анализ.docx](https://docs.google.com/document/d/1LHE9HADJU69eqY15WEVa6kyCGyLz3y_Y/edit?usp=sharing&ouid=100899205365935975704&rtpof=true&sd=true "файл на google диске") – файл с результатами проверки предоставленной документации;
 2. [test_cases&bug_reports_rostelecom.xlsx](https://docs.google.com/spreadsheets/d/1f_PsHkrbM__24LNjBPdzQZyljdLoMsur/edit?rtpof=true&sd=true#gid=2040003035 "файл на google диске") – файл с тест-кейсами и баг-репортами;
