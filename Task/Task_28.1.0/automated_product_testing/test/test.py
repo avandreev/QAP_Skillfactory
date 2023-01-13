@@ -26,13 +26,13 @@ def test_registration_valid_name_2(open_rostelecom_page):
     name.send_keys("Ал")
 
     surname = functions.find(driver, RegistrationFormPage.SURNAME)
-    surname.send_keys('Ан')
+    surname.send_keys('Андреев')
 
     region = functions.find(driver, RegistrationFormPage.REGION_INPUT)
     region.send_keys("Алтайский край")
     region_select = functions.find(driver, RegistrationFormPage.REGION_SELECT)
     region_select.click()
-    # При ручном вводе выпадающий список работает некорректно,заведён баг-репорт - BR-06
+    # При ручном вводе выпадающий список работает некорректно, заведён баг-репорт - BR-06
 
     email = functions.get_random_string(5) + '@mail.ru'
     email_input = functions.find(driver, RegistrationFormPage.EMAIL_MOB_PHONE)
@@ -375,7 +375,7 @@ def test_user_registration_name_31_negative(open_rostelecom_page):
     region_select = functions.find(driver, RegistrationFormPage.REGION_SELECT)
     region_select.click()
 
-    email = functions.get_random_string(8) + '@mail.ru'
+    email = functions.get_random_string(5) + '@mail.ru'
     email_input = functions.find(driver, RegistrationFormPage.EMAIL_MOB_PHONE)
     email_input.send_keys(email)
 
@@ -410,7 +410,7 @@ def test_user_registration_surname_1_negative(open_rostelecom_page):
     region_select = functions.find(driver, RegistrationFormPage.REGION_SELECT)
     region_select.click()
 
-    email = functions.get_random_string(8) + '@mail.ru'
+    email = functions.get_random_string(5) + '@mail.ru'
     email_input = functions.find(driver, RegistrationFormPage.EMAIL_MOB_PHONE)
     email_input.send_keys(email)
 
